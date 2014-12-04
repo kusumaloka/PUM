@@ -1,0 +1,43 @@
+t_dosen
+kd_dosen varchar(10)		111	222
+nama varchar(30)		111	222
+gelar_depan varchar(30)		111	222
+gelar_belakang varchar(30)	111	222
+
+t_jadwal
+kd_jadwal varchar(10)
+kd_semester varchar(5)
+kd_tahunajar varchar(10)
+kd_matakuliah varchar(6)
+kd_dosen1 varchar(10)
+kd_dosen2 varhcar(10)
+jam_mulai varchar(4)
+jam_selesai varchar(4)
+kd_ruang varchar(5)
+kd_hari varchar(1)
+
+t_jam
+kd_jam varchar(5)		111
+jam1 varchar(5)			1100
+jam2 varchar(5)			1300
+status varhcar(10)		Istirahat
+
+t_matakuliah
+kd_matakuliah varchar(6)	PMI11K
+nama_matakuliah varchar(30)	Etika Profese
+sks varchar(3)			1
+jenis varchar(10)		Kuliah
+
+t_ruang
+kd_ruang varchar(5)		s14
+nama_ruang varchar(30)		Seroja 1.4
+status varchar(20)		Ada
+
+t_semester			
+kd_semester varchar(5)		5
+nama_semester varchar(10)	Semester 5
+
+t_tahunajar			
+kd_tahunajar varchar(10)	2011
+tahun_ajar varchar(6)		2011
+semester varchar(3)		5
